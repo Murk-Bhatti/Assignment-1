@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator-container">
+        <div class="calculator">
+            <h1>Advanced Calculator</h1>
+            <input type="number" id="firstNumber" placeholder="Enter first number" class="input-field">
+            <input type="number" id="secondNumber" placeholder="Enter second number" class="input-field">
+            <select id="operator" class="select-field">
+                <option value="Addition">Addition</option>
+                <option value="Subtraction">Subtraction</option>
+                <option value="Multiplication">Multiplication</option>
+                <option value="Division">Division</option>
+            </select>
+            <button onclick="calculate()" class="calculate-button">Calculate</button>
+            <div id="result" class="result-display">Result: 0</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
